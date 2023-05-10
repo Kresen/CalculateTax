@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Api", "TaxCalculator.Api\TaxCalculator.Api.csproj", "{57AAC304-7048-445A-B501-FA326C155E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4E7CCE9E-29EF-4FCC-BB36-01DDDFDB8E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E17A3627-0786-4D5A-BA7E-69BD0351BA02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DD32A39B-1C63-4D49-85FB-5C0AE42C7061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{C71F2D19-C879-48BD-9F96-E41D67D1AE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B03B2526-2C63-4AD9-AAA8-9C59434FDB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Domain", "TaxCalculator.Domain\TaxCalculator.Domain.csproj", "{A740FFD6-DC87-4312-A9DA-8C495D9744D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Data", "TaxCalculator.Data\TaxCalculator.Data.csproj", "{5BF4A41B-A4EF-4518-8105-EA3402E2A116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Repository", "TaxCalculator.Repository\TaxCalculator.Repository.csproj", "{36C3E044-C4FA-4A5D-B392-FEDF40E4992C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Services", "TaxCalculator.Services\TaxCalculator.Services.csproj", "{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{87878B12-A390-4144-B94E-887135897B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Common", "TaxCalculator.Common\TaxCalculator.Common.csproj", "{C4F188BF-AC34-4D38-A33C-DF93E6C345C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Dtos", "TaxCalculator.Dtos\TaxCalculator.Dtos.csproj", "{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dtos", "Dtos", "{FC774790-35FA-4AA0-B275-DFBB0AFDDA5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{834D5531-6EBE-4EA7-8D2B-085CC0989D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Unit.Tests", "TaxCalculator.Unit.Tests\TaxCalculator.Unit.Tests.csproj", "{17509DE4-3546-44E9-9F14-5E48ABC207BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57AAC304-7048-445A-B501-FA326C155E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AAC304-7048-445A-B501-FA326C155E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AAC304-7048-445A-B501-FA326C155E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AAC304-7048-445A-B501-FA326C155E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A740FFD6-DC87-4312-A9DA-8C495D9744D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A740FFD6-DC87-4312-A9DA-8C495D9744D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A740FFD6-DC87-4312-A9DA-8C495D9744D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A740FFD6-DC87-4312-A9DA-8C495D9744D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF4A41B-A4EF-4518-8105-EA3402E2A116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF4A41B-A4EF-4518-8105-EA3402E2A116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF4A41B-A4EF-4518-8105-EA3402E2A116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF4A41B-A4EF-4518-8105-EA3402E2A116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C3E044-C4FA-4A5D-B392-FEDF40E4992C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C3E044-C4FA-4A5D-B392-FEDF40E4992C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C3E044-C4FA-4A5D-B392-FEDF40E4992C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C3E044-C4FA-4A5D-B392-FEDF40E4992C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F188BF-AC34-4D38-A33C-DF93E6C345C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F188BF-AC34-4D38-A33C-DF93E6C345C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F188BF-AC34-4D38-A33C-DF93E6C345C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F188BF-AC34-4D38-A33C-DF93E6C345C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17509DE4-3546-44E9-9F14-5E48ABC207BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17509DE4-3546-44E9-9F14-5E48ABC207BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17509DE4-3546-44E9-9F14-5E48ABC207BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17509DE4-3546-44E9-9F14-5E48ABC207BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57AAC304-7048-445A-B501-FA326C155E83} = {4E7CCE9E-29EF-4FCC-BB36-01DDDFDB8E8B}
+		{A740FFD6-DC87-4312-A9DA-8C495D9744D8} = {E17A3627-0786-4D5A-BA7E-69BD0351BA02}
+		{5BF4A41B-A4EF-4518-8105-EA3402E2A116} = {DD32A39B-1C63-4D49-85FB-5C0AE42C7061}
+		{36C3E044-C4FA-4A5D-B392-FEDF40E4992C} = {C71F2D19-C879-48BD-9F96-E41D67D1AE2D}
+		{E0FB2C1A-0905-4B02-8D50-4B4CDE5638F8} = {B03B2526-2C63-4AD9-AAA8-9C59434FDB5B}
+		{C4F188BF-AC34-4D38-A33C-DF93E6C345C6} = {87878B12-A390-4144-B94E-887135897B70}
+		{3C023A21-919F-44D5-AC6F-0DEFE8FC71F1} = {FC774790-35FA-4AA0-B275-DFBB0AFDDA5F}
+		{17509DE4-3546-44E9-9F14-5E48ABC207BE} = {834D5531-6EBE-4EA7-8D2B-085CC0989D3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {479EC8AF-B3FB-444B-B7D4-F83616292C94}
+	EndGlobalSection
+EndGlobal
