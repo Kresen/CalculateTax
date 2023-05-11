@@ -11,5 +11,6 @@ namespace TaxCalculator.Repository.Interfaces
     public interface ITaxCalculatorRepository
     {
         Task<List<TaxRates>> GetRates();
+        Task<bool> SaveSalaryTax(SalaryTax salaryTax);
     }
 }

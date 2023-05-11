@@ -24,5 +24,11 @@ namespace TaxCalculator.Repository
         {
             return await _context.TaxRates.ToListAsync();
         }
+
+        public async Task<bool> SaveSalaryTax(SalaryTax salaryTax)
+        {
+            _context.SalaryTax.Add(salaryTax);
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }

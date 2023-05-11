@@ -22,5 +22,6 @@ namespace TaxCalculator.Data.Contexts
         }
 
         public DbSet<TaxRates> TaxRates { get; set; }
+        public DbSet<SalaryTax> SalaryTax { get; set; }
     }
 }

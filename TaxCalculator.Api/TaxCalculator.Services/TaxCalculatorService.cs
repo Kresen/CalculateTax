@@ -35,6 +35,15 @@ namespace TaxCalculator.Services
 
             }
 
+           await  _taxCalculatorRepository.SaveSalaryTax(new Domain.Entities.SalaryTax
+            {
+                Id = Guid.NewGuid(),
+                AnnualSalary = input.AnnualSalary,
+                PostalCode = input.PostalCode,
+                CreatedDate = DateTime.UtcNow,
+                TaxAmount = taxAmount
+            });
+
             return taxAmount;
         }
 
